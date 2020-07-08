@@ -1,0 +1,21 @@
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: rgb(8, 65, 92)
+}
+#descricao {
+  font-style: italic
+}
+.principal {
+  color: rgb(76, 168, 189);
+  font-size: 1.8em;
+}
+.secundario {
+  color: rgb(173, 255, 222);
+  font-size: 1.3em;
+}
+.imagem {
+  border-radius: 30%;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
