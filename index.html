@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Meu Portfólio Web</title>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/67608891?s=460&u=57dd18997eb54faebd04bb9c37c253389dfaec8a&v=4">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu nome - Portfólio</title>
 </head>
 <body>
-    <div class="nome">
-        <h1>Luiz Felipe Ferreira Mello</h1>
-    </div>
-        <div class="foto">
-            <img id="foto"
-            src="https://avatars1.githubusercontent.com/u/67608891?s=460&u=57dd18997eb54faebd04bb9c37c253389dfaec8a&v=4" width="150px" alt="Uma foto do meu rosto.">
-        </div>
-        <div class="quem-sou-eu">
-            <h3 id="quem-sou"></br>Quem sou eu?</h3>
-            <p class="descricao"><strong>Brasileiro</strong>, <strong>belorizontino</strong>, apaixonado por Tecnologia, estudante de inglês e desenvolvimento de software, ávido por conhecimento e empolgado o futuro. Trabalhei por 8 anos na empresa Tambasa Atacadistas alcançando o cargo de Gerente de Vendas e sou formado em Administração de Empresas pela Faculdade Pitágoras.</p>
-        </div>     
-    </div>   
-    <div class="conteudo">
-        <div class="habilidades">
-            <hr>
-            <h3 id="habilidades">Lista de Habilidades</h3>
-            <ul>
-                <li class="impar"><em>Raciocínio Lógico</em></li>
-                <li >Análise sistêmica</li>
-                <li class="impar">Trabalho em equipe</li>
-                <li >Microsoft Office</li>
-                <li class="impar">Inglês intermediário</li>
+    <header class="header">
+        <nav class="nav">
+            <img class="mini-data" src="" alt="Minha foto de perfil" width="32">
+            <span class="mini-data">Meu Nome</span>
+            <ul class="links-list">
+                <li class="item-list"><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li class="item-list"><a href="http://" target="_blank" rel="noopener noreferrer">Projetos</a></li>
+                <li class="item-list"><a href="http://" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+                <li class="item-list"><a href="http://" target="_blank" rel="noopener noreferrer">Meu GitHub</a></li>
             </ul>
+        </nav>
+    </header>
+    <section class="main-content">
+        <section class="left-content">
+            <img class="main-photo" src="" alt="Minha foto de perfil" width="260">,
+            <h2 class="my-name">Meu nome</h2>
+            <h3 class="sub-name">Full Stack Developer Junior</h3>
+            <h4 class="personal-info">Trybe Student</h4>
+            <h4 class="personal-info">Belo Horizonte</h4>            
+        </section>
+    </section>
+    <section class="right-content">
+        <div class="curriculum">
+
         </div>
-        <hr>
-        <p>Quer conhecer um conteúdo de tecnologia <em>interessante?</em><br>
-        Acesse o site: <a href="https://arstechnica.com/" target="_blank">Arstechnica</a></p>
-        <p>Quer voltar ao início e à minha foto? <a href="#foto">Clique aqui</a>.</p>
-        <hr>
-        <h3>Índice de conteúdo.</h3>
-        <ul>
-            <li><a href="#quem-sou">Quem sou eu?</a></li>
-            <li><a href="#habilidades">Lista de Habilidades</a></li>
-        </ul>
-    <div>
+        <div class="projects-container">
+            <div class="project">
+                <a class="project-link" href="http://" target="_blank" rel="noopener noreferrer">Nome do Projeto</a>
+                <p class="project-description">Descrição do Projeto.</p>
+                <p class="project-language">Linguagem do Projeto.</p>
+                <p class="project-date">Data de criação do projeto.</p>
+                <img class="project-icon" src="" alt="Ícone do projeto">
+            </div>
+            <div class="project">
+                <a class="project-link" href="http://" target="_blank" rel="noopener noreferrer">Nome do Projeto</a>
+                <p class="project-description">Descrição do Projeto.</p>
+                <p class="project-language">Linguagem do Projeto.</p>
+                <p class="project-date">Data de criação do projeto.</p>
+                <img class="project-icon" src="" alt="Ícone do projeto">
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
