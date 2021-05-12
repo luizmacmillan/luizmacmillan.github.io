@@ -13,7 +13,7 @@ function Header() {
 
     setHeaderSubTitle(subTitle);
     setHeaderTitle(displayName);
-    history(path);
+    history.push(path);
   };
 
   return (
@@ -22,13 +22,13 @@ function Header() {
       <h2>{ headerTitle }</h2>
       <h3>{ headerSubTitle }</h3>
       <nav>
-        { navItems.map(({ name, displayName }) => (
+        { navItems.map((item) => (
           <button
-            key={ name }
+            key={ item.name }
             type="button"
-            onClick={ () => handleTitle(name) }
+            onClick={ () => handleTitle(item) }
           >
-            { displayName }
+            { item.displayName }
           </button>
         )) }
       </nav>
