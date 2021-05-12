@@ -1,0 +1,27 @@
+[
+  {
+    "name": "home",
+    "subTitle": "Desenvolvedor Web Full-Stack.",
+    "displayName": "Home"
+  },
+  {
+    "name": "projects",
+    "subTitle": "Projetos desenvolvidos ao longo da minha carreira.",
+    "displayName": "Projects"
+  },
+  {
+    "name": "resume",
+    "subTitle": "Currículum Vitae.",
+    "displayName": "Currículo"
+  },
+  {
+    "name": "about",
+    "subTitle": "Um pouco sobre Luiz Mello, por Luiz Mello.",
+    "displayName": "Sobre"
+  },
+  {
+    "name": "contacts",
+    "subTitle": "Entre em contato comigo.",
+    "displayName": "Contatos"
+  }
+]

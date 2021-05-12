@@ -1,27 +1,36 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import PortfolioContext from '../context/PortfolioContext';
+import navItems from '../assets/navItems.json';
 
 function Header() {
-  const { title, setTitle } = useContext(PortfolioContext);
+  const { headerTitle, setHeaderTitle } = useContext(PortfolioContext);
+  const [headerSubTitle, setHeaderSubTitle] = useState('Desenvolvedor Web Full-Stack.');
   const history = useHistory();
 
-  const handleTitle = ({ target: { name, innerHTML } }) => {
+  const handleTitle = ({ name, displayName, subTitle }) => {
     const path = `/${name}`;
-    setTitle(innerHTML);
+
+    setHeaderSubTitle(subTitle);
+    setHeaderTitle(displayName);
     history(path);
   };
 
   return (
     <div>
       <h1>Luiz Mello</h1>
-      <h2>{ title }</h2>
+      <h2>{ headerTitle }</h2>
+      <h3>{ headerSubTitle }</h3>
       <nav>
-        <button type="button" onClick={ handleTitle } name="home">Home</button>
-        <button type="button" onClick={ handleTitle } name="projects">Projetos</button>
-        <button type="button" onClick={ handleTitle } name="resume">Currículo</button>
-        <button type="button" onClick={ handleTitle } name="about">Sobre mim</button>
-        <button type="button" onClick={ handleTitle } name="contacts">Contatos</button>
+        { navItems.map(({ name, displayName }) => (
+          <button
+            key={ name }
+            type="button"
+            onClick={ () => handleTitle(name) }
+          >
+            { displayName }
+          </button>
+        )) }
       </nav>
     </div>
   );
