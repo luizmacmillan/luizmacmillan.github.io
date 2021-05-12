@@ -1,27 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FaWhatsappSquare, AiFillAppstore } from 'react-icons/all';
+import { FaGithubSquare, AiFillAppstore, SiGooglecalendar } from 'react-icons/all';
+
+import Style from './ProjectCartStyle';
 
 function ProjectCard({ project:
-  { id, name, description, tags, repositoryLink, deployLink },
+  { name, description, tags, createdAt, repositoryLink, deployLink },
 }) {
   return (
-    <div>
-      <p>{ id }</p>
-      <p>{ name }</p>
-      <p>{ description }</p>
-      <p>{ tags.map((tag) => <span key={ tag }>{ tag }</span>) }</p>
-      <a href={ repositoryLink }>
-        <FaWhatsappSquare />
+    <Style.Container>
+      <h3 className="project-name">{ name }</h3>
+      <p className="description">{ description }</p>
+      <div className="tag-container">
+        { tags.map((tag) => <span className="tag" key={ tag }>{ tag }</span>) }
+      </div>
+      <p className="project-info">
+        <SiGooglecalendar fill="#000B0D" size="3rem" />
+        { createdAt }
+      </p>
+      <a href={ repositoryLink } className="project-info">
+        <FaGithubSquare fill="#000B0D" size="3rem" />
         Visite o repositório
       </a>
       { deployLink && (
-        <a href={ deployLink }>
-          <AiFillAppstore />
+        <a href={ deployLink } className="project-info">
+          <AiFillAppstore fill="#000B0D" size="3rem" />
           Acesse o App
         </a>
       ) }
-    </div>
+    </Style.Container>
   );
 }
 
@@ -33,10 +40,10 @@ ProjectCard.defaultProps = {
 
 ProjectCard.propTypes = {
   project: PropTypes.shape({
-    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     tags: PropTypes.instanceOf(Array).isRequired,
+    createdAt: PropTypes.string.isRequired,
     repositoryLink: PropTypes.string.isRequired,
     deployLink: PropTypes.string,
   }),
