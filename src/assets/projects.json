@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Tech News",
+    "description": "Foi feito um projeto que teve como principal objetivo fazer consultas em notícias sobre tecnologia. Para isso foi necessário criar um banco de dados, obter dados para popular este banco e preparar consultas a serem feitas nestas notícias.",
+    "tags": ["MongoDB", "Python", "Raspagem de Dados"],
+    "createdAt": "15/05/2021",
+    "repositoryLink": "https://github.com/luizmacmillan/trybe-projects/tree/master/tech-news",
+    "deployLink": ""
+  },
+  {
+    "id": 2,
     "name": "Trybeer 2.0",
     "description": "Esse projeto é uma continuação do projeto Trybeer! Ou seja, o commit inicial nesse repositório será todo o projeto que foi desenvolvido anteriormente. Nesse projeto foram desenvolvidas novas funcionalidades a partir dos conhecimentos adquiridos nos últimos blocos da Trybe. No projeto Trybeer foi utilizado apenas o banco de dados MySQL. Já nesse projeto além do MySQL, foi utilizado o MongoDB. Em resumo, o que foi feito: Refatorada a camada de modelo para usar Sequelize; Possibilitado que um administrador pudesse mudar o status atual de um pedido para um terceiro tipo 'Preparando' e exibir essa informação nas partes que são determinadas; Desenvolvido um chat onde um cliente pode conversar diretamente com o administrador; Vale a pena ressaltar que este projeto segue de um projeto Trybeer legado de outro grupo, portanto, eu não participei do desenvolvimento realizado nas implementações feitas que fogem dos requisitos descritos neste README.",
     "tags": ["Trabalho em Equipe", "React.Js", "React.Js Hooks", "Socket.Io", "Context API", "Node.Js", "Sequelize", "CSS", "Requisições a APIs", "Express", "Styled Components", "MongoDB", "MySQL", "REST", "SOLID", "Arquitetura MSC", "Metodologias Ágeis"],
@@ -9,7 +18,7 @@
     "deployLink": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "WebChat",
     "description": "Neste projeto foi desenvolvido um chat online e ao utilizar essa aplicação um usuário deverá ser capaz de: Usar um front-end para enviar mensagens a clientes conectados; Visualizar o histórico de mensagens da conversa; Visualizar os usuários online no momento; Alterar o nome de usuário no chat em tempo real;",
     "tags": ["Node.Js", "Socket.Io", "Express", "MongoDB",  "CSS"],
@@ -18,7 +27,7 @@
     "deployLink": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Blogs API",
     "description": "Foi desenvolvida uma API de um CRUD posts de blog (com o sequelize) utilizando alguns endpoints (seguindo os princípios do REST) que foram conectados ao banco de dados, aplicando os princípios SOLID. Inicialmente foi criada uma tabela para os usuários que desejam se cadastrar na aplicação. Após isso, a tabela blogPost é capaz de guardar todas as informações dos posts realizados na plataforma.",
     "tags": ["Node.Js", "MySQL", "Express", "REST", "SOLID", "Arquitetura MSC"],
@@ -27,7 +36,7 @@
     "deployLink": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Trybeer",
     "description": "Neste projeto foi desenvolvida uma aplicação de ponta a ponta. Isso significa que a API, o banco de dados e o front-end. Foi criada uma plataforma de delivery de cerveja. Para facilitar o entendimento, podemos dividir a aplicação em três partes: Front-end do cliente, onde nossos clientes vão comprar cerveja; Front-end do admin, onde o estabelecimento controlará os pedidos feitos; API, que será compartilhada entre cliente e admin. O banco de dados utilizado foi o MySQL. Para servir arquivos estáticos como imagens no back-end, foi utilizado o seguinte path: /images para manter de acordo com os caminhos da imagem que são salvas com os produtos no script.sql.",
     "tags": ["Trabalho em Equipe", "React.Js", "React.Js Hooks", "Context API", "Node.Js", "Sequelize", "CSS", "Requisições a APIs", "Express", "MySQL", "REST", "SOLID", "Arquitetura MSC", "Metodologias Ágeis"],
@@ -36,7 +45,7 @@
     "deployLink": ""
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "CookMaster",
     "description": "Foi desenvolvido um app utilizando a arquitetura MSC. Neste novo projeto é possível fazer o cadastro e login de pessoa usuária, onde apenas esse usuário poderá acessar, modificar e deletar as receitas que cadastrou.",
     "tags": ["Node.Js", "Express", "MongoDB", "Arquitetura MSC"],
@@ -45,7 +54,7 @@
     "deployLink": ""
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Store Manager",
     "description": "Foram desenvolvidas todas as camadas da API (Models, Service caso necessário, e Controllers). Através dessa aplicação, será é possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão. Foi utilizado o banco MongoDB para a gestão de dados. Além disso, a API foi desenvolvida para ser RESTful.",
     "tags": ["Node.Js", "Express", "MongoDB", "REST"],
@@ -54,7 +63,7 @@
     "deployLink": ""
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Crush Manager",
     "description": "Foi desenvolvida uma API de um CRUD de crushs contendo alguns endpoints que irão ler e escrever em um arquivo, isso utilizando o módulo fs.",
     "tags": ["Node.Js", "Express", "REST", "Módulo FS"],
@@ -63,7 +72,7 @@
     "deployLink": ""
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Recipes APP",
     "description": "Foi desenvolvido um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API! Nele será possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks! A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas. O layout tem como foco dispositivos móveis.",
     "tags": ["Trabalho em Equipe", "React.Js", "Context API", "CSS", "Requisições a APIs", "Metodologias Ágeis"],
@@ -72,7 +81,7 @@
     "deployLink": ""
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "StarWars Datatable",
     "description": "Foi desenvolvida uma lista com filtros de planetas do universo de StarWars usando Context API e Hooks para controlar os estados globais.",
     "tags": ["React.Js", "Context API", "React.Js Hooks", "CSS", "Requisições a APIs"],
@@ -81,7 +90,7 @@
     "deployLink": ""
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Trívia",
     "description": "Foi desenvolvido um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano rs) utilizando React e Redux, em grupo suas funcionalidades de acordo com as demandas definidas em um quadro Kanban. A partir dessas demandas, temos uma aplicação onde a pessoa usuária pode: Logar no jogo e, se o email tiver cadastro no site Gravatar, ter sua foto associada ao perfil de pessoa usuária. Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada. Ser redirecionada, após 5 perguntas respondidas, para a tela de score, onde o texto mostrado depende do número de acertos. Visualizar a página de ranking, se quiser, ao final de cada jogo. Configurar algumas opções para o jogo em uma tela de configuração acessível a partir do cabeçalho do app.",
     "tags": ["Trabalho em Equipe", "React.Js", "Redux.Js", "Requisições a APIs", "CSS", "Metodologias Ágeis"],
@@ -90,7 +99,7 @@
     "deployLink": ""
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Trybe Wallet",
     "description": "Neste projeto foi desenvolvida uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário é capaz de: Adicionar, remover e editar um gasto; Visualizar uma tabelas com seus gastos; Visualizar o total de gastos convertidos para uma moeda de escolha;",
     "tags": ["React.Js", "Redux.Js", "Requisições a APIs", "CSS"],
@@ -99,7 +108,7 @@
     "deployLink": ""
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "FrontEnd Online Store",
     "description": "Neste projeto foi criada uma versão simplificada, sem persistência no banco de dados, de uma loja online, desenvolvendo, em grupo, suas funcionalidades de acordo com demandas definidas em um quadro Kanban, em um cenário o próximo ao do mercado de trabalho. A partir dessas demandas, temos uma aplicação onde os usuários poderão: Buscar produtos por termos e categorias a partir da API do Mercado Livre; Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades; Visualizar detalhes e avaliações prévias de um produto, bem como criar novas; E por fim, finalizar a compra (simulada) dos itens selecionados.",
     "tags": ["Trabalho em Equipe", "React.Js", "Requisições a APIs", "Metodologias Ágeis", "CSS"],
@@ -108,7 +117,7 @@
     "deployLink": ""
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Movie Cards Library",
     "description": "Foi desenvolvida uma biblioteca de cartões de filmes utilizando React. A biblioteca possui um cabeçalho e uma lista de cartões. Cada cartão representa um filme e possui uma imagem, título, subtítulo, sinopse e avaliação.Implementei um conjunto de componentes em React que compõem o meu App.",
     "tags": ["React.Js", "CSS"],
@@ -117,7 +126,7 @@
     "deployLink": ""
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Shopping Cart",
     "description": "Nesse projeto foi implementado um carrinho de compras totalmente dinâmico e consumindo dados diretamente de uma API. Este projeto tem como objetivo: Revisar meu conhecimento acerca de JavaScript, CSS e HTML; Checar o meu conhecimento acerca de JavaScript assíncrono através do uso da API do Mercado Livre.",
     "tags": ["JavaScript", "CSS", "HTML", "Requisições a APIs"],
@@ -126,7 +135,7 @@
     "deployLink": ""
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Mistery Letter",
     "description": "Neste projeto, foi implementado um gerador de cartas misteriosas, ou seja, dado um valor digitado em um campo de texto, são apresentadas as palavras com a aparência de uma carta onde cada palavra possui uma estilização própria.",
     "tags": ["JavaScript", "CSS", "HTML"],
@@ -135,7 +144,7 @@
     "deployLink": ""
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "To Do List",
     "description": "Foi criado um site capaz de criar uma lista de tarefas onde é possível adicionar, salvar, reordenar e concluir estas tarefas.",
     "tags": ["JavaScript", "CSS", "HTML"],
@@ -144,7 +153,7 @@
     "deployLink": ""
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Pixels Art",
     "description": "Neste projeto, foi implementado um editor de arte com pixels, ou seja, dada uma paleta de cores e um quadro composto por pixels, é permitido a que quem usa pintar o que quiser no quadro!",
     "tags": ["JavaScript", "CSS", "HTML"],
@@ -153,7 +162,7 @@
     "deployLink": ""
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Meme Generator",
     "description": "Foi criado um site que permite o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada.",
     "tags": ["JavaScript", "CSS", "HTML"],

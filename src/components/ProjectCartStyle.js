@@ -40,13 +40,14 @@ const Container = styled.div`${() => css`
     display: flex;
     align-items: center;
     font-size: 1.3rem;
+    min-width: 18rem;
     width: 80%;
     padding: 0 5px;
     justify-content: center;
     text-decoration: none;
   }
   .project-info svg {
-    margin-right: 10px;
+    margin-right: 1rem;
   }
   a.project-info:hover {
     box-shadow: 0 0 5px #09093B;

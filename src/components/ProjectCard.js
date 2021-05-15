@@ -14,20 +14,22 @@ function ProjectCard({ project:
       <div className="tag-container">
         { tags.map((tag) => <span className="tag" key={ tag }>{ tag }</span>) }
       </div>
-      <p className="project-info">
-        <SiGooglecalendar fill="#000B0D" size="3rem" />
-        { createdAt }
-      </p>
-      <a href={ repositoryLink } className="project-info">
-        <FaGithubSquare fill="#000B0D" size="3rem" />
-        Visite o repositório
-      </a>
-      { deployLink && (
-        <a href={ deployLink } className="project-info">
-          <AiFillAppstore fill="#000B0D" size="3rem" />
-          Acesse o App
+      <div>
+        <p className="project-info">
+          <SiGooglecalendar fill="#000B0D" size="3rem" />
+          { createdAt }
+        </p>
+        <a href={ repositoryLink } className="project-info">
+          <FaGithubSquare fill="#000B0D" size="3rem" />
+          Visite o repositório
         </a>
-      ) }
+        { deployLink && (
+          <a href={ deployLink } className="project-info">
+            <AiFillAppstore fill="#000B0D" size="3rem" />
+            Acesse o App
+          </a>
+        ) }
+      </div>
     </Style.Container>
   );
 }

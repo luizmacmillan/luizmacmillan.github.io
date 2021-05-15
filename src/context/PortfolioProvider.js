@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import PortfolioContext from './PortfolioContext';
 
 function PortfolioProvider({ children }) {
-  const [headerTitle, setHeaderTitle] = useState('Home');
+  const [headerTitle, setHeaderTitle] = useState('home');
   const contextValue = {
     headerTitle,
     setHeaderTitle,
