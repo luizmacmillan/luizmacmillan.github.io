@@ -1,0 +1,33 @@
+{
+  "proExps": [
+    {
+      "company": "Tecidos E Armarinhos Miguel Bartolomeu",
+      "role": "Gerente Regional de Vendas",
+      "period": "fevereiro de 2011 - junho de 2019 (8 anos 5 meses)",
+      "location": "Contagem e Região, Brasil",
+      "dotDescriptions": ["Contratação, gestão e treinamento de uma equipe de 25 representantes;", "Apresentação de resultados para a diretoria e reuniões de campo com os representantes através de gráficos, planilhas e apresentações em PowerPoint."],
+      "description": "Alcancei o recorde de faturamento da equipe em que eu trabalhava (R$7.448.744) como o maior crescimento (18,09%) no ano de 2018."
+    },
+    {
+      "company": "Hospital Paulistano",
+      "role": "Recepcionista Hospitalar Sênior",
+      "period": "novembro de 2009 - dezembro de 2010 (1 ano 2 meses)",
+      "location": "São Paulo e Região, Brasil",
+      "dotDescriptions": ["Atendimento a clientes;", "Recepção dos pacientes com qualidade e cordialidade."],
+      "description": "Recebi 3 certificados de atendimento excelente devido aos comentários e elogios dos clientes que tive a satisfação de atender."
+    }
+  ],
+  "academicGraduations": [
+    {
+      "institution": "Trybe",
+      "course": "Desenvolvimento Web Full Stack",
+      "period": "2020 - 2021"
+    },
+    {
+      "institution": "Faculdade Pitágoras",
+      "course": "Bacharelado em Administração",
+      "period": "2013 - 2016"
+    }
+  ],
+  "address": "Av. Augusto de Lima, 1168. Apto 502. Bairro Barro Preto. BeloHorizonte / MG"
+}

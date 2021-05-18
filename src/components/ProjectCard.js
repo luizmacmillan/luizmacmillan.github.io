@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FaGithubSquare, AiFillAppstore, SiGooglecalendar } from 'react-icons/all';
 
-import Style from './ProjectCartStyle';
+import Style from './ProjectCardStyle';
 
 function ProjectCard({ project:
   { name, description, tags, createdAt, repositoryLink, deployLink },
