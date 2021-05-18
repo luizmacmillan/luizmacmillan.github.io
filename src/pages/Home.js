@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
 
 import Style from './HomeStyle';
 
 function Home() {
   return (
     <main>
-      <Header />
       <Style.Container>
         <p>
           Conheça um pouco sobre mim e algumas das minhas capacidades

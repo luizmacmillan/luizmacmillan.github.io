@@ -1,11 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
 import Style from './AboutStyle';
 
 function About() {
   return (
     <main>
-      <Header />
       <Style.Container>
         <p>
           Sou apaixonado por Tecnologia, estudante ávido e empolgado de inglês (Mairo

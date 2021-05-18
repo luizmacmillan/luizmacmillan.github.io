@@ -1,24 +1,20 @@
-import React, { useContext, useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import React, { useContext } from 'react';
 import PortfolioContext from '../context/PortfolioContext';
 import navItems from '../assets/navItems.json';
 
 import Style from './HeaderStyle';
 
 function Header() {
-  const { headerTitle, setHeaderTitle } = useContext(PortfolioContext);
-  const [
+  const {
+    headerTitle,
+    setHeaderTitle,
     headerSubTitle,
     setHeaderSubTitle,
-  ] = useState('Desenvolvedor Web Full-Stack Jr.');
-  const history = useHistory();
+  } = useContext(PortfolioContext);
 
   const handleTitle = ({ name, subTitle }) => {
-    const path = `/${name}`;
-
     setHeaderSubTitle(subTitle);
     setHeaderTitle(name);
-    history.push(path);
   };
 
   return (

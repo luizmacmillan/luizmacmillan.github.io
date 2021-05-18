@@ -1,13 +1,11 @@
 import React from 'react';
 import { FaWhatsappSquare, FaGithubSquare, FaLinkedin, MdMail } from 'react-icons/all';
 
-import Header from '../components/Header';
 import Style from './ContactsStyle';
 
 function Contacts() {
   return (
     <main>
-      <Header />
       <Style.Container>
         <a href="https://github.com/luizmacmillan" target="_blank" rel="noreferrer">
           <FaGithubSquare fill="#000B0D" size="5rem" />

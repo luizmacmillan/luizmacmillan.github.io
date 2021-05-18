@@ -8,6 +8,7 @@ function PortfolioProvider({ children }) {
     headerSubTitle,
     setHeaderSubTitle,
   ] = useState('Desenvolvedor Web Full-Stack Jr.');
+
   const contextValue = {
     headerTitle,
     setHeaderTitle,
