@@ -4,7 +4,7 @@ import Style from './HomeStyle';
 
 function Home() {
   return (
-    <content>
+    <section>
       <Style.Container>
         <p>
           Conheça um pouco sobre mim e algumas das minhas capacidades
@@ -20,7 +20,7 @@ function Home() {
           Sinta-se convidado(a) a enviar-me uma mensagem caso tenha alguma dúvida.
         </p>
       </Style.Container>
-    </content>
+    </section>
   );
 }
 

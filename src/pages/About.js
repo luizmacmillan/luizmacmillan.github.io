@@ -3,7 +3,7 @@ import Style from './AboutStyle';
 
 function About() {
   return (
-    <content>
+    <section>
       <Style.Container>
         <p>
           Sou apaixonado por Tecnologia, estudante ávido e empolgado de inglês (Mairo
@@ -37,7 +37,7 @@ function About() {
           </span>
         </p>
       </Style.Container>
-    </content>
+    </section>
   );
 }
 

@@ -5,7 +5,7 @@ import Style from './ContactsStyle';
 
 function Contacts() {
   return (
-    <content>
+    <section>
       <Style.Container>
         <a href="https://github.com/luizmacmillan" target="_blank" rel="noreferrer">
           <FaGithubSquare fill="#000B0D" size="5rem" />
@@ -24,7 +24,7 @@ function Contacts() {
           <span className="contact-info">luizmello88@hotmail.com</span>
         </a>
       </Style.Container>
-    </content>
+    </section>
   );
 }
 
