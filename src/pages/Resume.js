@@ -4,11 +4,11 @@ import Style from './HomeStyle';
 
 function Resume() {
   return (
-    <main>
+    <content>
       <Style.Container>
         <p>Em construção.</p>
       </Style.Container>
-    </main>
+    </content>
   );
 }
 

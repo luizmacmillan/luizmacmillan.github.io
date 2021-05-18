@@ -6,13 +6,13 @@ import Style from './ProjectsStyle';
 
 function Projects() {
   return (
-    <main>
+    <content>
       <Style.Container>
         { projectsList.map((project) => (
           <ProjectCard key={ project.id } project={ project } />
         )) }
       </Style.Container>
-    </main>
+    </content>
   );
 }
 

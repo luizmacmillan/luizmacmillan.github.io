@@ -20,10 +20,10 @@ function App() {
   };
 
   return (
-    <body>
+    <main>
       <Header />
       { routes[headerTitle] }
-    </body>
+    </main>
   );
 }
 
