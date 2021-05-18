@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Container = styled.div`${({ selected }) => css`
+  padding: 0 15vw;
   font-family: 'PT sans', sans-serif;
   display: flex;
   margin: 0 40px;
@@ -21,7 +22,7 @@ const Container = styled.div`${({ selected }) => css`
   .nav-button {
     border: 1px solid #fff;
     font-size: 1.8rem;
-    margin: 0 0.8rem;
+    margin: 0.2rem 0.8rem;
     padding: 5px 8px;
     border-radius: 8px;
     background-color: #fff;
@@ -29,14 +30,12 @@ const Container = styled.div`${({ selected }) => css`
   }
   .${selected} {
     border: 1px solid #5d5a56;
-    box-sizing: 150px;
     cursor: pointer;
     box-shadow: 0 0 5px #000B0D;
     color: #000B0D;
   }
   button.nav-button:hover {
     border: 1px solid #5d5a56;
-    box-sizing: 150px;
     cursor: pointer;
     box-shadow: 0 0 5px #000B0D;
     transition: 1s;
@@ -45,9 +44,6 @@ const Container = styled.div`${({ selected }) => css`
   .name {
     font-size: 3rem;
     letter-spacing: 0.8rem;
-  }
-  @media (max-width: 1200px) {
-    width: 100%;
   }
   `}
 `;

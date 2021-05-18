@@ -4,9 +4,15 @@ import PortfolioContext from './PortfolioContext';
 
 function PortfolioProvider({ children }) {
   const [headerTitle, setHeaderTitle] = useState('home');
+  const [
+    headerSubTitle,
+    setHeaderSubTitle,
+  ] = useState('Desenvolvedor Web Full-Stack Jr.');
   const contextValue = {
     headerTitle,
     setHeaderTitle,
+    headerSubTitle,
+    setHeaderSubTitle,
   };
 
   return (

@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import PortfolioContext from '../context/PortfolioContext';
 import navItems from '../assets/navItems.json';
@@ -20,9 +20,6 @@ function Header() {
     setHeaderTitle(name);
     history.push(path);
   };
-
-  useEffect(() => {
-  }, [headerTitle]);
 
   return (
     <Style.Container selected={ headerTitle }>
