@@ -1,11 +1,13 @@
 import React from 'react';
 
+import myPhoto from '../assets/myPhoto.jpeg';
 import Style from './HomeStyle';
 
 function Home() {
   return (
     <section>
       <Style.Container>
+        <img src={ myPhoto } alt="Me with Trybe t-shirt." />
         <p>
           Conheça um pouco sobre mim e algumas das minhas capacidades
           no desenvolvimento web.
