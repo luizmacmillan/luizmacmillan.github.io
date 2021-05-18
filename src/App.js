@@ -22,6 +22,10 @@ function App() {
   return (
     <main>
       <Header />
+      {/*
+        As rotas foram feitas desta forma para que a aplicação
+        não quebre no GitHub Pages ao atualizar a página.
+      */}
       { routes[headerTitle] }
     </main>
   );
