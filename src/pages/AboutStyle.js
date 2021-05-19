@@ -8,7 +8,6 @@ const Container = styled.div`${() => css`
   font-size: 1.5rem;
   margin: 3rem auto;
   padding: 2.5rem 0.8rem;
-  }
   .keywords {
     color: #fff;
     margin-top: 1rem;

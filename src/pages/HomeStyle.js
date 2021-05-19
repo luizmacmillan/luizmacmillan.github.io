@@ -12,7 +12,6 @@ const Container = styled.div`${() => css`
   margin: 3rem auto;
   padding: 2.5rem 2rem;
   text-align: center;
-  }
   img {
     border-radius: 40px;
     box-shadow: 0 0 20px white;

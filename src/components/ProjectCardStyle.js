@@ -13,8 +13,9 @@ const Container = styled.div`${() => css`
   justify-content: space-between;
   padding: 5px 20px 40px 20px;
   width: 40%;
-  a:visited {
+  a:visited, a {
     color: #000B0D;
+    text-decoration: none;
   }
   a.project-info:hover {
     border-radius: 30px;
