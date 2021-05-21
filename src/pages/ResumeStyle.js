@@ -25,6 +25,10 @@ const Container = styled.div`${() => css`
     margin: 0.5rem;
     width: 6rem;
   }
+  .download-icon:hover {
+    color: #2F402B;
+    cursor: pointer;
+  }
   `}
 `;
 
