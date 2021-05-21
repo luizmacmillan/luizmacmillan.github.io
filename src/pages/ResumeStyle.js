@@ -26,7 +26,7 @@ const Container = styled.div`${() => css`
     width: 6rem;
   }
   .download-icon:hover {
-    color: #2F402B;
+    color: #082C00;
     cursor: pointer;
   }
   `}
